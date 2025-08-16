@@ -4,7 +4,9 @@
   "description": "personal portfolio",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:fix": "prettier --write .",
+    "lint:check":"prettier --check ."
   },
   "author": "Danielle Guimarães",
   "license": "MIT",
